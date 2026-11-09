@@ -47,7 +47,7 @@ sentiment: sentiment(word).score
 
 async function loadData() {
   const data = await d3.csv(
-    "netflix_movies.csv/Movies-Table 1.csv"
+    "Movies-Table 1.csv"
   );
 
   const movies = data
